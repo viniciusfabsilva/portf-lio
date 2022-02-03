@@ -1,0 +1,136 @@
+.body {
+    display: grid;
+    align-content: space-between;
+    max-width: 100%;
+    height: 100%;
+    background-color: #D3F3FC;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.content {
+    display: grid;
+    align-content: center;
+    justify-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.perfil {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 240px;
+    height: 240px;
+}
+
+.image-perfil {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.about-me {
+    color: rgb(102, 92, 92);
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    margin-top: 24px;
+}
+
+.description {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    margin-top: 8px;
+    width: 586px;
+    border-left: 3px solid rgba(0, 0, 0, 0.4);
+    text-align: center;
+}
+
+.card-title {
+    color: rgb(102, 92, 92);
+    padding: 24px;
+    font-size: 35px;
+}
+
+.card-portfolio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.card {
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding: 30px;
+    margin: 20px;
+    width: 275px;
+    height: 400px;
+    transition: all 0.3s ease-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.card p {
+    color: #a3a5ae;
+    font-size: 16px;
+}
+
+.blue {
+    border-left: 3px solid #4895ff;
+}
+
+.green {
+    border-left: 3px solid #3bb54a;
+}
+
+.red {
+    border-left: 3px solid #b3404a;
+}
+
+.image {
+    float: right;
+    max-width: 64px;
+    max-height: 64px;
+}
+
+.footer {
+    font-family: 'Proxima Nova', 'Helvetica Neue', Helvetica, Arial, Sans Serif;
+    font-weight: 400;
+    font-size: 16px;
+    display: grid;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    width: 100%;
+    height: 150px;
+    color: rgb(255, 255, 255);
+    background-color: #323333;
+}
+
+.footer-name {
+    padding-top: 8px;
+    height: 25px;
+}
+
+.perfil-icons {
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    width: 150px;
+}
+
+.img {
+    width: 45px;
+    height: 40px;
+    margin-left: 8px;
+}
+
+.owner {
+    opacity: .2;
+    font-size: 14px;
+}
